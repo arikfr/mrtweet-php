@@ -1,4 +1,9 @@
 PHP Wrapper for Mr.Tweet's V1 API
 API Doc: http://api.mrtweet.com/v1/docs
 
+It uses libcurl and requires PHP 5 >= 5.2.0 for json_decode.
+Of course, you can rewrite to use other json decode funtions (or SimpleXMLElement for the XML response) and something different than libcurl.
+
+While it very straightforward, see MrTweetApiTest.php for example of usage.
+
 Used originally for Topify (http://topify.com/).
